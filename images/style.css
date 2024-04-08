@@ -116,8 +116,8 @@ input[type=message]{
     cursor: pointer;
    border-radius: 12px;
    position: relative;   
-   align-items: center;
-  
+   left: 120px;
+  text-align: center;
 }
     
   
