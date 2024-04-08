@@ -54,6 +54,15 @@ h1{
     border-radius:5px 0 0px 0px;
     background-color:rgba(255,255,255,.35);
 }
+/*images*/
 figcaption{
-    position: ;
+    position:relative;
+    top: -270px ;
+    text-align:center;
+    
 }
+figcaption::nth-child(3){
+    top:-40px;
+}
+
+/* contact part*/
