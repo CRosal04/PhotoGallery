@@ -61,8 +61,69 @@ figcaption{
     text-align:center;
     
 }
-figcaption::nth-child(3){
-    top:-40px;
+figcaption::nth-child(7){
+   position: relative; 
+   top:-60px;
 }
 
 /* contact part*/
+#contact{
+    background-color:#000000;
+}
+#contact>h2,#contact>p{
+    color:#ffffff;
+}
+label{
+    color: #ffffff;
+    text-align: center;
+}
+label{
+text-transform: uppercase;
+padding: 5px;
+margin: 6px;
+}
+input::placeholder{
+    color: #007d7b;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=message]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+ input[type=submit]{
+    background-color: #007d7b;
+    font-weight:bold;
+    text-transform:uppercase;
+    border: none;
+    color: white;
+    padding: 16px 80px;
+    margin: 8px 2px;
+    cursor: pointer;
+   border-radius: 12px;
+   position: relative;   
+   align-items: center;
+  
+}
+    
+  
+/*Footer*/
+footer{
+    text-align: center;
+    color: #ffffff;
+    background-color:#000000 ;
+}
