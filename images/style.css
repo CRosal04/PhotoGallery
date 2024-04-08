@@ -111,7 +111,6 @@ input[type=message]{
     text-transform:uppercase;
     border: none;
     color: white;
-    padding: 16px 100px;
     margin: 8px 2px;
     cursor: pointer;
    border-radius: 12px;
