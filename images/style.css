@@ -141,7 +141,7 @@ input[type=message]{
 div{
     text-align: center;
 }
-   /* .gallery h2,.gallery p{
+   .gallery h2,.gallery p{
         grid-column: 1/-1;
         
     }
