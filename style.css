@@ -198,7 +198,8 @@ header h1{
         }
        nav {
             width: 1300px;
-            justify-content: right;
+            text-align: right;
+            
         }
         input[type=submit]{
             padding: 12px 300px;
