@@ -141,6 +141,9 @@ input[type=message]{
 div{
     text-align: center;
 }
+figure{
+    margin: auto 0;
+}
    .gallery h2,.gallery p{
         grid-column: 1/-1;
         
