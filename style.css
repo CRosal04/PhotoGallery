@@ -33,6 +33,10 @@ h1{
     padding: 5px;
     font-size: 3em;
 }
+img{
+    margin: 0 auto;
+    text-align: center;
+}
 /*navigation*/
   nav li {
     display:inline-flex;
