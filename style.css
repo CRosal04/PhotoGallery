@@ -33,7 +33,7 @@ h1{
     padding: 5px;
     font-size: 3em;
 }
-figure img{
+figure,img{
     margin: 0 auto;
     text-align: center;
 }
@@ -97,6 +97,7 @@ figcaption{
 }
 #contact>h2,#contact>p{
     color:#ffffff;
+    text-align: center;
 }
 label{
     color: #ffffff;
@@ -176,9 +177,14 @@ footer{
     
         width: 880px;
     }
+header h1{
+    text-align: left;
 
+}
 
-
+    input[type=submit]{
+        padding: 12px 180px;
+    }
 }
 @media (min-width: 1300px) {
     .gallery{
@@ -192,5 +198,10 @@ footer{
         }
        nav {
             width: 1300px;
+            justify-content: right;
         }
+        input[type=submit]{
+            padding: 12px 300px;
+        }
+
 }
