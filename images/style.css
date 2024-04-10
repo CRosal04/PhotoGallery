@@ -7,7 +7,10 @@ figcaption, label, input, small {
 nav a {
     font-size: 1.5em;
 }
-h2 {font-size: 2em;}
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
 
 body{
     margin: 0 auto;
@@ -85,18 +88,20 @@ figcaption{
 /* contact part*/
 #contact{
     background-color:#000000;
+    
 }
 #contact>h2,#contact>p{
     color:#ffffff;
 }
 label{
     color: #ffffff;
-    text-align: center;
+
 }
 label{
 text-transform: uppercase;
 padding: 5px;
 margin: 6px;
+
 }
 input::placeholder{
     color: #007d7b;
@@ -130,12 +135,16 @@ input[type=message]{
     margin: 16px 2px;
     cursor: pointer;
    border-radius: 14px;
-   padding: 12px 80px;
-   position: relative;   
-   left: 140px;
-  text-align: center;
+   padding: 12px 80px; 
+
 }
-    
+div{
+    text-align: center;
+}
+   /* .gallery h2,.gallery p{
+        grid-column: 1/-1;
+        
+    }
   
 /*Footer*/
 footer{
@@ -145,13 +154,34 @@ footer{
     text-transform: uppercase;
 }
 @media (min-width: 880px) {
-    figure{
+    .gallery{
     display: grid;
-    grid-template-columns: 2fr; 
-    grid-template-rows: repeat(4, 2fr);
+    grid-template-columns: 1fr 1fr; 
+   
     }
+    body{
+    margin: 0 auto;
+    width: 880px;
+}
+    nav{
+    
+        width: 880px;
+    }
+
+
 
 }
 @media (min-width: 1300px) {
-
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; 
+      
+        }
+        body{
+            margin: 0 auto;
+            width:1300px;
+        }
+       nav {
+            width: 1300px;
+        }
 }
