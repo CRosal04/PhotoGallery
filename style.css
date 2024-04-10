@@ -33,10 +33,11 @@ h1{
     padding: 5px;
     font-size: 3em;
 }
-img{
+figure img{
     margin: 0 auto;
     text-align: center;
 }
+
 /*navigation*/
   nav li {
     display:inline-flex;
@@ -150,6 +151,7 @@ figure{
 }
    .gallery h2,.gallery p{
         grid-column: 1/-1;
+    
         
     }
   
