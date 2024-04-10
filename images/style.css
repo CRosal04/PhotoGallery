@@ -61,7 +61,7 @@ figcaption{
     text-align:center;
     
 }
-figcaption::nth-child(7){
+/*figcaption::nth-child(7){
    position: relative; 
    top:-60px;
 }
@@ -113,9 +113,10 @@ input[type=message]{
     color: white;
     margin: 16px 2px;
     cursor: pointer;
-   border-radius: 50px;
+   border-radius: 14px;
+   padding: 12px 80px;
    position: relative;   
-   left: 120px;
+   left: 140px;
   text-align: center;
 }
     
